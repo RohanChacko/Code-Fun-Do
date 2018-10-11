@@ -4,7 +4,7 @@
 During a natural calamity, one of the biggest challenges is communication. In most cases, network connectivity in affected areas is critically hit, to the point of non-existence in some cases. This makes it next to impossible for victims to communicate with external relief efforts for help, or the outside world in general. As such all efforts have to be taken making guesses as to where victims are likely to be.
 
 ### Our Solution
-Our solution proposes the creation of cluster networks through WiFi Hotspots (Bluetooth?) over a certain region which will
+Our solution proposes the creation of cluster networks through WiFi Hotspots (and/or Bluetooth) over a certain region which will
 1. Enable affected victims of that area to come together to share critical information and help bring aid at a faster pace for all of them.
 2. Pinpoint locations of all people who have connected to the network, such that relief efforts know where to search if one person on the network manages to connect to the outside world or is rescued.
 
@@ -31,7 +31,7 @@ If any device gets cellular connectivity, all the data is instantly transferred 
 
 ## Features
 
-- The mobile application would enable a peer to peer Wi-Fi signal.
+- The mobile application would enable a peer to peer Wi-Fi and/or Bluetooth signal.
 - Detect the location of all the available networks close by and exchange information in the background.
 - Create a cluster mapping to know the position of the victims and display it on a map api.
 - Information Update
