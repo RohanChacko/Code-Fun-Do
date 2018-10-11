@@ -1,7 +1,6 @@
 # Local Cluster Networks for Accelerating Relief efforts
 Or the utilization of ad hoc networks for basic relief communication at a large scale. 
 
-## Idea
 ### The Problem
 During a natural calamity, one of the biggest challenges is communication. In most cases, network connectivity in affected areas is critically hit, to the point of non-existence in some cases. This makes it next to impossible for victims to communicate with external relief efforts for help, or the outside world in general. As such all efforts have to be taken making guesses as to where victims are likely to be.
 
@@ -32,3 +31,13 @@ If any device gets cellular connectivity, all the data is instantly transferred 
  - The system is automatically enabled in disaster management situations
 
 ## Features
+
+- The mobile application would enable a peer to peer Wi-Fi signal.
+- Detect the location of all the available networks close by and exchange information in the background.
+- Create a cluster mapping to know the position of the victims and display it on a map api.
+- Information Update
+  - Update the location of the person done by the app.
+  - Modify the attention and critical alert levels and share the information with the other devices on the network.
+- Find any device that has internet connectivity and upload the information of the main base camp server.
+- The server at the base camp can then channel search teams and resources accordingly.
+
