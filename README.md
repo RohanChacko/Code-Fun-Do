@@ -5,8 +5,8 @@ During a natural calamity, one of the biggest challenges is communication. In mo
 
 ### Our Solution
 Our solution proposes the creation of cluster networks through WiFi Hotspots (and/or Bluetooth) over a certain region which will
-1. Enable affected victims of that area to come together to share critical information and help bring aid at a faster pace for all of them.
-2. Pinpoint locations of all people who have connected to the network, such that relief efforts know where to search if one person on the network manages to connect to the outside world or is rescued.
+1. Enable affected victims of that area to connect and share critical information, bringing aid at a faster pace.
+2. Map all people who had ever connected to the network, so relief efforts know where to search if one person manages to connect to the outside world or is rescued.
 
 ## Solution in detail
 The solution allows for groups of people in different areas of an affected region to form clusters among themselves through the creation of WiFi Hotspots (and/or Bluetooth).
