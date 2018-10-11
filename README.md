@@ -1,4 +1,4 @@
-# Ad Hoc Networks for coordinating relief efforts at a large scale
+# Ad Hoc Networks for coordinating relief efforts
 
 ### The Problem
 During a natural calamity, one of the biggest challenges is communication. In most cases, network connectivity in affected areas is critically hit, to the point of non-existence in some cases. This makes it next to impossible for victims to communicate with external relief efforts for help, or the outside world in general. As such all efforts have to be taken making guesses as to where victims are likely to be.
