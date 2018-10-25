@@ -18,6 +18,7 @@ class Person(object):
                                      # has dictionary with the person and the time-stamp 
                                      # of last seen/ last updated.
         self.message = None
+        self.chat = []
 
     def move(self):
         """ Move within the defined range
@@ -68,10 +69,24 @@ class Person(object):
             self.connected_people.append(personB)
         pass
 
-    def send_message(self):
+    def send_message(self, message):
         """ If there is any message by the person,
         it is sent to all the people connected in the cluster
         """
+        for person in self.connected_people:
+            person.receive_message(self.id, message)
+        pass
+
+    def receive_message(self,identifier,message):
+        """ Receive messages from any of the mobile device 
+        from the cluster and save it in the chat history
+        """
+        self.chat.append(
+            {
+                'id':identifier,
+                'message':message
+            }
+        )
         pass
 
     def connect_server(self):
