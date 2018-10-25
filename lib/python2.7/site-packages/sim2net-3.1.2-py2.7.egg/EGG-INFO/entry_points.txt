@@ -1,0 +1,3 @@
+[console_scripts]
+sim2net = sim2net.cli.cli:main
+
