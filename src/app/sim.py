@@ -1,24 +1,3 @@
-# import pygame
-# from person import Person
-# import random
-
-# people_array = []
-# map_height = None
-# map_width = None
-
-
-
-        
-# def main():
-#     while(True):
-
-
-
-
-                    
-
-#!/usr/bin/env python2
-
 import pygame
 import random
 import time
@@ -41,7 +20,7 @@ def init():
         person.id = k
         k= k+1
 
-# Define Colors 
+# Define Colors
 WHITE = (255, 255, 255)
 BLACK = (0, 0, 0)
 RED = (255, 0, 0)
@@ -82,7 +61,7 @@ while running:
     #         else:
     #             if person.detect_signal(other_person):
     #                 pygame.draw.line(screen, GREEN, (person.x_coordinate,person.y_coordinate), (other_person.x_coordinate,other_person.y_coordinate), 1)
-                    
+
                     # pass
                     # person.displacement_x = 0
                     # person.displacement_y = 0
@@ -95,12 +74,12 @@ while running:
     #3 Draw/render
     screen.fill(BLACK)
 
-    
+
     for person in people_array:
         person.move()
         if random.randint(0, 500) == 50:
             person.cell_connectivity = True
-        
+
         if random.randint(0, 500) == 50:
             person.ismessage = True
             person.message = "Message from person " + str(person.id) + ": " + str(person.x_coordinate) + "," + str(person.displacement_y)
@@ -128,6 +107,6 @@ while running:
     ########################
 
     ## Done after drawing everything to the screen
-    pygame.display.flip()       
+    pygame.display.flip()
 
 pygame.quit()
