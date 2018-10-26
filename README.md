@@ -40,3 +40,11 @@ If any device gets cellular connectivity, all the data is instantly transferred 
 - Find any device that has internet connectivity and upload the information of the main base camp server.
 - The server at the base camp can then channel search teams and resources accordingly.
 - As this solution only requires a mobile with wifi capability, it does not depend on traditional mobile network connections. Hence it is robust against network fluctuations commonly seen during natural disasters.
+
+# Running the Code
+Requirement: python3
+
+```
+pip install -r requirements.txt
+python3 src/app/sim.py
+```
