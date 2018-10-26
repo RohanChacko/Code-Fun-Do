@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/olsr/!svn/ver/72/trunk/omolsr_src/conf
+END
+omolsr.properties
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/olsr/!svn/ver/83/trunk/omolsr_src/conf/omolsr.properties
+END
+log4j.properties
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/olsr/!svn/ver/14/trunk/omolsr_src/conf/log4j.properties
+END

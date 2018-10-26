@@ -48,3 +48,10 @@ Requirement: python3
 pip install -r requirements.txt
 python3 src/app/sim.py
 ```
+
+### MANET demo:
+Extended work on [MChannel](http://ast-deim.urv.cat/mchannel/web/mchannel).
+To run: 
+```
+java -Djava.net.preferIPv4Stack=true -jar MANETDEMO/MChannel.jar
+```

@@ -1,0 +1,34 @@
+9
+
+dir
+72
+http://ast-deim.urv.cat/svn/olsr/trunk/omolsr_src/resources
+http://ast-deim.urv.cat/svn/olsr
+
+
+
+2009-04-27T15:03:15.735028Z
+65
+raul
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+6cabf344-8230-4364-84aa-2653ad5846b6
+
+graphs
+dir
+
+rfcs
+dir
+

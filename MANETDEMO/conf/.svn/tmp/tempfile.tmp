@@ -1,0 +1,72 @@
+
+########################## Protocol Stack properties ##########################
+
+# This flag indicates whether to perform a network emulation or run a real application
+EMULATED = FALSE
+
+# This flag indicates if communication logging is enabled (this feature is only used in non-emulated environments)
+COMM_LOG = TRUE
+
+# The unicast port used in real applications 
+UNICAST_PORT = 5034
+
+# This flag indicates whether the protocol stack includes reliability protocols or not
+#RELIABILITY = FALSE
+RELIABILITY = TRUE
+
+# The protocol that will be used to send multicast messages (Ex: OMOLSR, SMCAST)
+MULTICAST_PROTOCOL = OMOLSR
+
+
+############################# Topology properties #############################
+
+# The pajek file used for the network simulation
+#GRAPH_FILE = resources/graphs/DynGraph7nodes.tim
+#GRAPH_FILE = resources/graphs/graph30nodes.net
+#GRAPH_FILE = resources/graphs/graph12nodes.net
+#GRAPH_FILE = resources/graphs/DynGraph12nodes.tim
+#GRAPH_FILE = resources/graphs/DynGraph12nodesSoft.tim
+#GRAPH_FILE = resources/graphs/DynGraph25nodesSoft.tim
+#GRAPH_FILE = resources/graphs/graph7nodesLine.net
+#GRAPH_FILE = resources/graphs/graph12nodes.net
+GRAPH_FILE = resources/graphs/graph4nodesLine.net
+
+
+############################# Other properties ################################
+
+# The application class that will be launched
+#APPLICATION = urv.app.RealTest
+#APPLICATION = urv.app.MembershipTest
+#APPLICATION = urv.app.SimpleSenderApplication
+APPLICATION = urv.app.AppTest
+
+# A CSV list of tasks classes
+EMULATION_TASKS = urv.emulator.tasks.topology.TopologyChangesTask,urv.emulator.tasks.stats.MembershipStatsTask,urv.emulator.tasks.stats.CommunicationStatsTask
+#EMULATION_TASKS = urv.emulator.tasks.topology.TopologyChangesTask,urv.emulator.tasks.stats.CommunicationStatsTask
+#EMULATION_TASKS = urv.emulator.tasks.topology.TopologyChangesTask
+#,urv.emulator.tasks.MessageStatsTask
+
+# OLSR control messages will be sent with this probability
+<<<<<<< .mine
+SENDING_PROB = 1.0
+
+########################### TEST PROPERTIES ######################################
+
+# The node with this property = true will send a signal to the rest of the nodes into
+# the channel to stop waiting and start the tests simultaneously
+INITIALIZER =FALSE
+# Number of Multicast/Unicast messages that each node will send in the PDR Test
+NUMBER_MESSAGES_TO_SEND = 100
+# Size of the test file that each node will send (Multicast/Unicast) in the Throughput test
+FILE_SIZE_IN_KB = 1000=======
+SENDING_PROB = 1.0
+
+########################### TEST PROPERTIES ######################################
+
+# The node with this property = true will send a signal to the rest of the nodes into
+# the channel to stop waiting and start the tests simultaneously
+INITIALIZER = TRUE
+# Number of Multicast/Unicast messages that each node will send in the PDR Test
+NUMBER_MESSAGES_TO_SEND = 100
+# Size of the test file that each node will send (Multicast/Unicast) in the Throughput test
+FILE_SIZE_IN_KB = 1000>>>>>>> .r22
